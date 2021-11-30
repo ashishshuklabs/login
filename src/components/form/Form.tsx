@@ -124,7 +124,7 @@ const StyledForm = styled.form<{
   transition: all 3s linear;
 
   .checkbox-container {
-    margin: 1rem auto;
+    margin: 1rem 0;
     opacity: ${(props) => (props.removeCheckbox ? 0 : 1)};
     display: flex;
     align-items: baseline;
